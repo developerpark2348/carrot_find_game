@@ -1,3 +1,4 @@
+// Timer
 function startTimer(duration, display) {
     var timer = duration, seconds;
     setInterval(function () {
@@ -10,14 +11,14 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = 0;
-        }
+            document.querySelector('.footer').style.opacity = "0.7";
+        };
     }, 1000);
 }
 
-const start = document.querySelector('.start')
-
-start.addEventListener('click', () => {
-    var start = 10,
-        display = document.querySelector('#time');
-    startTimer(start, display);
+//start button to play
+const startBtn = document.querySelector('.start');
+startBtn.addEventListener("click", () => {
+    display = document.querySelector('#time');
+    startTimer(10, display);
 })
