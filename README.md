@@ -1,5 +1,5 @@
 # carrot-find-game
 carrot find
-Dream Coding의 당근찾기 게임으로, 실행화면만 보고 pop-up창이 나오는것과
-게임이 시작될시 나오는것을 미리 만들어보고
-랜덤한 좌표값에 출력되는 코드를 생성하는것을 배움.
+첫 표지만 보고 스스로 popup창의 style.opacity를 지정하여, javascript 타이머가 0이될시, popup창의 내용의 opacity를 1로 만들어 화면에 출력하게 만들었으며, 소리출력등과같은 여러가지 요소를 활용하여 만들었습니다.
+
+도움:DreamCoding(엘리)
