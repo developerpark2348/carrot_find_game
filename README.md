@@ -1,5 +1,7 @@
 # carrot-find-game
 carrot find
-첫 표지만 보고 스스로 popup창의 style.opacity를 지정하여, javascript 타이머가 0이될시, popup창의 내용의 opacity를 1로 만들어 화면에 출력하게 만들었으며, 소리출력등과같은 여러가지 요소를 활용하여 만들었습니다.
+당근을 누르면 위의 20이라 적힌 숫자가 -1씩 카운팅되며, 해당 카운트가 0일시 승리함.
+하지만 타이머 20:00 이 0:00초로 20초가 흘러 변하거나, 벌레를 클릭시 You Lost라는 창과함께 패배함.
 
-도움:DreamCoding(엘리)
+
+DreamCoding(엘리)의 carrot-game을 참조함
